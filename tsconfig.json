@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js", //diretório onde serão gerados os arquivos .js
+        "target": "ES6", //versão do js que será gerada
+        "noEmitOnError": true //não permite que arquivos na dist sejam criados enquanto há erro nos .ts
+    },
+    "include": [ "app/**/*"] //arquivos .ts que serão lidos app/qualquer subpasta/qualquer arquivo
+}
