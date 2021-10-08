@@ -8,5 +8,21 @@ export class Negociacao {
         this.#quantidade = quantidade
         this.#valor = valor
     }
+
+    get Data() {
+        return this.#data
+    }
+
+    get Quantidade() {
+        return this.#quantidade
+    }
+
+    get Valor() {
+        return this.#valor
+    }
+
+    get Volume() {
+        return this.#quantidade * this.#valor
+    }
 }
 
