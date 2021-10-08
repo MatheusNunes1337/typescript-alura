@@ -7,5 +7,7 @@ export class Negociacoes {
         this.negociacoes.push(negociacao)
     }
 
-    
+    lista(): Array<Negociacao> {
+        return this.negociacoes
+    }
 }
