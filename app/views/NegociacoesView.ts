@@ -1,11 +1,7 @@
 import { Negociacoes } from "../models/Negociacoes.js"
 
 export class NegociacoesView {
-    private elemento: HTMLElement
 
-    constructor(seletor: string) {
-        this.elemento = document.querySelector(seletor)
-    }
 
     template(model: Negociacoes): string {
         return `
