@@ -30,7 +30,7 @@ export class NegociacaoController {
         const quantidade = parseInt(this.inputQuantidade.value)
         const valor = parseFloat(this.inputValor.value)
         const negociacao = new Negociacao(
-            date, valor, quantidade
+            date, quantidade, valor
         )
 
         return negociacao
