@@ -7,7 +7,7 @@ export class NegociacoesView {
 
     template(): string {
         return `
-        <table class table="table table-hover table bordered">
+        <table class="table table-hover table-bordered">
             <thead>
                 <tr>
                     <th>Data</th>
@@ -20,5 +20,9 @@ export class NegociacoesView {
         </table>
         
         `
+    }
+
+    update() : void {
+        this.elemento.innerHTML = this.template()
     }
 }
