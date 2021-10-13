@@ -2,6 +2,7 @@ export abstract class View<T> {
     protected element: HTMLElement
     private escapar = false
 
+    /*os parâmetros opcionais tem de ser os últimos*/
     constructor(seletor: string, escapar?: boolean) {
         this.element = document.querySelector(seletor)
         if(escapar) {
